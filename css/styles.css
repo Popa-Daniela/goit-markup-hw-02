@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
+
+:root {
+  --text-header-color: #ffffff;
+  --text-footer-color: rgba(255, 255, 255, 0.6);
+  --text-font-family: #212121;
+  --footer-page-background: #2f303a;
+  --webstudio: #2196f3;
+  --paragraf-color: #757575;
+}
+
+.global-header a.webstudio {
+  color: #2196f3;
+}
+
+.global-header .main-navigation a {
+  color: #212121;
+}
+.global-header .main-navigation a.active {
+  color: #2196f3;
+}
+body {
+  font-family: "Roboto";
+  color: var(--text-font-family);
+}
+.address a {
+  color: #ffffff;
+}
+.footer-tel-color a {
+  color: var(--text-footer-color);
+}
+
+.global-header a {
+  color: #212121;
+}
+.global-footer {
+  color: #ffffff;
+  background: var(--footer-page-background);
+}
+.global-footer a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+.footer-text a {
+  color: var(--paragraf-color);
+}
+.nav-links {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--text-font-family);
+}
+.h1-section {
+  background: var(--footer-page-background);
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.what-we-do-section {
+  background: var(--text-header-color);
+}
+.our-team-section {
+  background: #f5f4fa;
+}
+.webstudio {
+  color: var(--webstudio);
+}
+.button {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88x;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  color: #ffffff;
+  background: #2196f3;
+}
+.portofolio-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63px;
+  cursor: pointer;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  border: 0cm;
+}
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14x;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.h3-portofolio {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71x;
+  letter-spacing: 0.03em;
+
+  color: var(--paragraf-color);
+}
+.p-portofolio {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19x;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.paragraf-team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.nav-links a:hover,
+.nav-links a:focus,
+.global-footer a:hover,
+.global-footer a:focus {
+  color: var(--webstudio);
+}
+.portofolio-button :hover {
+  color: #ffffff;
+  background: #2196f3;
+  display: inline-block;
+  cursor: pointer;
+  border: 0cm;
+}
+
+.no-underline a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
