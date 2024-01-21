@@ -8,20 +8,12 @@
   --webstudio: #2196f3;
   --paragraf-color: #757575;
 }
-
-.global-header a.webstudio {
-  color: #2196f3;
-}
-
-.global-header .main-navigation a {
-  color: #212121;
-}
-.global-header .main-navigation a.active {
-  color: #2196f3;
-}
 body {
   font-family: "Roboto";
   color: var(--text-font-family);
+}
+.global-header a.active {
+  color: var(--webstudio);
 }
 .address a {
   color: #ffffff;
